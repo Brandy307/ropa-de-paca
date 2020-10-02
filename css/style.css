@@ -1,0 +1,151 @@
+body{
+
+    background-image: url(css\img\fondo1.jpg);
+	margin: 0px;
+
+}
+
+.header {
+
+  padding: 17px;
+  text-align: center;
+  background: #424242;
+  color: #FF8000;
+  font-size: 70px;
+  font-family: verdana;
+  font-weight: bolder;
+  border-radius: 0px;
+  
+  }
+  .header2 {
+
+  padding: 20px;
+  text-align: center;
+  background: #424242;
+  color: #ffffff;
+  font-family: verdana;
+  border-radius: 0px;
+  
+  }
+	
+			.menu {
+				margin:auto;
+				width:525px;
+				font-family:Verdana;
+				background-color: #FF8000
+				padding 35px;
+			}
+			
+			ul, ol {
+				list-style:none;
+				border-radius: 30px;
+			}
+			
+			.nav > li {
+				float:left;
+				border-radius: 30px;
+	            background-color: #FF8000;
+	            padding 5px;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:15px 17px;
+				display:block;
+				border-radius: 30px;
+				background-color: #FF8000;
+			}
+			
+			.nav li a:hover {
+				background-color: #424242;
+				border-radius: 30px;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+				border-radius: 30px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+				border-radius: 30px;
+			}
+			
+			.nav li ul li {
+				position:relative;
+				border-radius: 30px;
+			}
+			
+			.nav li ul li ul {
+				padding: 45px;
+				right:140px;
+				top:20px;
+				border-radius: 30px;
+			}  
+	.header3{
+  
+  padding: 20px;
+  text-align: right;
+  background:  #FF8000;
+  color: white;
+  font-size: 15px;
+  font-family: verdana;
+
+  }
+
+  /*slider*/
+
+.slider {
+	width: 55%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}
+
+.footer{
+
+  padding: 35px;
+  text-align: center;
+  background: #424242;
+  color: #ffffff;
+  font-family: verdana;
+  border-radius: 0px;
+
+}
