@@ -1,2 +1,2 @@
-# ropa-de-paca
+ ropa-de-paca
 Tienda de pacas
