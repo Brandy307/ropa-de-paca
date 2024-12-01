@@ -9,8 +9,8 @@ body{
 
   padding: 17px;
   text-align: center;
-  background: #424242;
-  color: #FF8000;
+  background: 424242;
+  color: FF8000;
   font-size: 70px;
   font-family: verdana;
   font-weight: bolder;
@@ -21,8 +21,8 @@ body{
 
   padding: 20px;
   text-align: center;
-  background: #424242;
-  color: #ffffff;
+  background: 424242;
+  color: ffffff;
   font-family: verdana;
   border-radius: 0px;
   
@@ -32,7 +32,7 @@ body{
 				margin:auto;
 				width:525px;
 				font-family:Verdana;
-				background-color: #FF8000
+				background-color: FF8000
 				padding 35px;
 			}
 			
@@ -44,22 +44,22 @@ body{
 			.nav > li {
 				float:left;
 				border-radius: 30px;
-	            background-color: #FF8000;
+	            background-color: FF8000;
 	            padding 5px;
 			}
 			
 			.nav li a {
-				background-color:#000;
-				color:#fff;
+				background-color:000;
+				color:fff;
 				text-decoration:none;
 				padding:15px 17px;
 				display:block;
 				border-radius: 30px;
-				background-color: #FF8000;
+				background-color: FF8000;
 			}
 			
 			.nav li a:hover {
-				background-color: #424242;
+				background-color: 424242;
 				border-radius: 30px;
 			}
 			
@@ -90,7 +90,7 @@ body{
   
   padding: 20px;
   text-align: right;
-  background:  #FF8000;
+  background:  FF8000;
   color: white;
   font-size: 15px;
   font-family: verdana;
@@ -101,13 +101,13 @@ body{
 
 .slider {
 	width: 55%;
-	margin: auto;
-	overflow: hidden;
+	margin: none;
+	overflow: none;
 }
 
 .slider ul {
 
-	display: flex;
+	display: none;
 	padding: 0;
 	width: 400%;
 	
@@ -143,7 +143,7 @@ body{
 
   padding: 35px;
   text-align: center;
-  background: #424242;
+  background: 424242;
   color: #ffffff;
   font-family: verdana;
   border-radius: 0px;
